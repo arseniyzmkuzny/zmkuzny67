@@ -7,20 +7,6 @@ int subtract(int a, int b) {
 	return a - b;
 }
 int main() {
-	cout << "=== КАЛЬКУЛЯТОР v1.0 === " << endl;
-	cout << "Доступные операции : +" << endl;
-	int a, b;
-	char op;
-	cout << " Введите выражение(например: 5 + 3) : " << endl;
-	cin >> a >> op >> b;
-	if (op == '+') {
-		cout << "Результат: " << add(a, b) << endl;
-	}
-	else if (op == '-') {
-		cout << " Результат: " << subtract(a, b) << endl;
-	}
-	else {
-		cout << " Ошибка: неподдерживаемая операция! " << endl;
-	}
+	cout << "ветка три";
 	return 0;
 }
